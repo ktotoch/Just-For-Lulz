@@ -3,10 +3,6 @@
     width: 100%;
     background-color: #fefefe;
     z-index: 101;
-}
-
-.top-block__content {
-    padding-left: 160px;
 
     ul {
         display: flex;
@@ -18,7 +14,7 @@
     }
 }
 
-.top-block__content a {
+.top-block li a {
     display: block;
     padding-top: 22px;
     padding-bottom: 22px;
