@@ -12,6 +12,10 @@
     img {
         max-height: 140px;
         max-width: 140px;
+
+        @media screen and (max-width: 560px) {
+            display: none;
+        }
     }
 }
 

@@ -20,6 +20,14 @@
     max-width: 720px;
     padding-left: 20px;
     padding-right: 20px;
+
+    @media screen and (max-width: 860px) {
+        margin-left: auto;
+    }
+
+    @media screen and (max-width: 730px) {
+        max-width: 700px;
+    }
 }
 
 
@@ -27,6 +35,10 @@
     padding-top: 128px;
     padding-bottom: 93px;
     background-color: #f8f8f8;
+
+    @media screen and (max-width: 730px) {
+        padding-bottom: 30px;
+    }
 
     section:not(:last-child) {
         padding-bottom: 75px;
@@ -47,7 +59,9 @@
     .separate {
         margin-left: -50%;
         border-top: 1px solid #e2e3e4;
+
+        @media screen and (max-width: 730px) {
+            margin-left: 0;
+        }
     }
 }
-
-

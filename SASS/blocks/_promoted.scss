@@ -3,6 +3,10 @@
     padding-bottom: 40px;
     background-color: #fefefe;
 
+    @media screen and (max-width: 730px) {
+        display: none;
+    }
+
     &__block {
         display: flex;
         justify-content: space-between;

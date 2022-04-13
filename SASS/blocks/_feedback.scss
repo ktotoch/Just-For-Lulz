@@ -21,6 +21,10 @@
     &__row {
         display: flex;
         justify-content: space-between;
+        
+        @media screen and (max-width: 730px) {
+            flex-wrap: wrap;
+        }
     }
 
     label,
@@ -70,6 +74,11 @@
 
 .feedback-form__row > label + label {
     margin-left: 30px;
+
+    @media screen and (max-width: 730px) {
+        margin-left: 0;
+        margin-top: 13px;
+    }
 }
 
 .feedback-form label.border-btn {
@@ -78,6 +87,11 @@
     color: #606778;
     height: 40px;
     line-height: 40px;
+
+    @media screen and (max-width: 730px) {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
     
     input {
         position: absolute;
@@ -92,5 +106,11 @@
     &:focus {
         color: #0a3fb4;
         border-color: #0a3fb4;
+    }
+}
+
+.feedback-form .border-btn {
+    @media screen and (max-width: 730px) {
+        width: 100%;
     }
 }
