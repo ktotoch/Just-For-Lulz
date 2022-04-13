@@ -546,7 +546,7 @@ h6 {
   padding-left: 20px;
   padding-right: 20px;
 }
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 990px) {
   .contacts-page__container,
   .top-block__container,
   .promoted__container {
@@ -576,7 +576,6 @@ h6 {
 }
 .contacts-page [class*="__text"] a {
   color: #020c22;
-  padding-bottom: 1px;
   border-bottom: 1px solid #bcc2eb;
   -webkit-transition: border-color 0.4s cubic-bezier(0.23, 1, 0.32, 1);
   transition: border-color 0.4s cubic-bezier(0.23, 1, 0.32, 1);
